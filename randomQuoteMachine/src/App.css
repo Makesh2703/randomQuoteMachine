@@ -1,0 +1,45 @@
+.background{
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#quote-box{
+  width: 500px;
+  margin: 0 auto;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+  text-align: left;
+  background-color: white;
+  border-radius: 25px;
+}
+
+#author{
+  text-align: right;
+  size-adjust: auto;
+}
+
+p {
+  font-size: 1.125rem;
+}
+
+button,
+a {
+  border-radius: 15px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  width: fit-content;
+  font-weight: 500;
+  background: #1a1a1a;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1.25em;
+  text-emphasis-color: white;
+  text-size-adjust: 5px;
+  color: azure;
+}
